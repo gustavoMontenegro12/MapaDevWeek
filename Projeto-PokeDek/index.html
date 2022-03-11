@@ -4,6 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/cards.css">
+    <link rel="stylesheet" href="src/css/lists.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
     <title>Projeto PokeDek - MapaDev Week</title>
     <meta name="description" content="Esse site é legal">
 </head>
@@ -11,8 +19,8 @@
 <body>
     <main>
         <div class="pokedex">
-            <div class="pokemon-cards">
-                <div class="pokemon-card">
+            <div class="pokemon-cards ">
+                <div class="pokemon-card open type-eletric">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Pikachu</h2>
@@ -241,40 +249,43 @@
                 </div>
             </div>
 
-            <nav class="list">
+            <nav class="list ">
                 <ul>
-                    <li class="pokemon-list">
+                    <li class="pokemon-list active">
                         <img src="src/images/cabeca-pikachu.png" alt="cabeca do pikachu">
+                        <span>Pikachu</span>
                     </li>
-                    <span>Pikachu</span>
                     
-                    <li class="pokemon-list">
-                        <img src="src/images/bulbasaur.png" alt="cabeca do pikachu">
-                    </li>
-                    <span>Bubasaur</span>
 
                     <li class="pokemon-list">
-                        <img src="src/images/charmander.png" alt="cabeca do pikachu">
+                        <img src="src/images/cabeca-bulbasaur.png" alt="cabeca do pikachu">
+                        <span>Bubasaur</span>
                     </li>
-
-                    <span>Charmander</span>
+                    
 
                     <li class="pokemon-list">
-                        <img src="src/images/gyarados.png" alt="cabeca do pikachu">
+                        <img src="src/images/cabeca-charmander.png" alt="cabeca do pikachu">
+                        <span>Charmander</span>
                     </li>
-                    <span>Gyarados</span>
 
+                    
 
                     <li class="pokemon-list">
-                        <img src="src/images/gengar.png" alt="cabeca do pikachu">
+                        <img src="src/images/cabeca-gyarados.png" alt="cabeca do pikachu">
+                        <span>Gyarados</span>
                     </li>
-                    <span>Gengar</span>
 
 
                     <li class="pokemon-list">
-                        <img src="src/images/dragonite.png" alt="cabeca do pikachu">
+                        <img src="src/images/cabeca-gengar.png" alt="cabeca do pikachu">
+                        <span>Gengar</span>
                     </li>
-                    <span>Dragonite</span>
+
+
+                    <li class="pokemon-list">
+                        <img src="src/images/cabeca-dragonite.png" alt="cabeca do pikachu">
+                        <span>Dragonite</span>
+                    </li>
 
                 </ul>
             </nav>
